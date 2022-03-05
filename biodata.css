@@ -1,0 +1,107 @@
+
+        body{
+            background-color: antiquewhite;
+            font-size: 15px;
+             
+            margin-left: 10%;
+      
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 100;
+            font-style: oblique;
+        }
+
+       
+      
+
+
+        .circle{
+          height: 130px;
+          width: 130px; 
+          background-color: white;
+          border-radius: 50%;
+          display: inline-block;
+          
+        }
+       
+        .borderline{
+            box-sizing:border-box ;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            width: auto;
+            height: auto;
+            border: 20px solid antiquewhite;
+            background-color: white;
+            border-radius: 20%;
+            text-align: center;
+        }
+
+        /* Menu */
+        .flexcontainer{
+            display: flex;
+            flex-direction: row;
+            background-color: black;
+            color: aliceblue;
+            margin-left: -10%;
+            /* align-content: center; */
+
+        }
+       
+        .break{
+          line-break: auto;
+          list-style: none;
+          line-height: normal;
+        }
+
+        /* personal information */
+
+        .flexx{
+            display: flex;
+            flex-direction: row;
+          
+        }
+        
+        .right{
+          /* text-align: center; */
+          margin-left: 25%;
+        }
+
+        /* skills */
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: black;
+            border-radius: 50%;
+            display: inline-block;
+            text-align: left;
+          }
+          .dot1 {
+            height: 8px;
+            width: 8px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+            border-style:solid;
+          }
+
+          /* qualification */
+
+          #size{
+              font-size: 15px;
+              font-family: Arial, Helvetica, sans-serif;
+              text-decoration: double;
+              font-style:oblique;
+              font-display:inherit;
+              color: black;
+              background-color:whitesmoke;
+          }
+
+         
+
+          .borderwid{
+            box-sizing:border-box ;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            width: 100%;
+          }
+
